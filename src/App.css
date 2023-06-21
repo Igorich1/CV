@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fade-in 1s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fas {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+}
+
+.work-experience {
+  margin-bottom: 40px;
+}
+
+.work-experience li {
+  font-size: 16px;
+  color: #777;
+  margin: 0 10px 10px;
+  padding: 5px 10px;
+}
+
+.work-experience .item-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.work-experience .item-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.work-experience ul {
+  padding-left: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item .item-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.education-item .item-subtitle {
+  font-size: 14px;
+  color: #777;
+}
+
+.icon {
+  margin-right: 10px;
+  color: inherit;
+}
+
+.wbs{
+  cursor: pointer;
+  color: #22c525;
 }

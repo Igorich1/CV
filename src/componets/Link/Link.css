@@ -1,0 +1,27 @@
+.icon {
+  transition: color 0.3s;
+}
+
+.icon i {
+  transition: transform 0.3s;
+}
+
+.icon:hover:active i {
+  transform: scale(0.8);
+}
+
+.icon.gmail:hover i {
+  color: rgb(193, 49, 49);
+}
+
+.icon.linkedin:hover i {
+  color: rgb(14, 88, 192);
+}
+
+.icon.github:hover i {
+  color: rgb(0, 0, 0);
+}
+
+.icon.telegram:hover i {
+  color: rgb(0, 123, 255);
+}
