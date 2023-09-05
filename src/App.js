@@ -14,7 +14,7 @@ const App = () => {
       <div className="section">
         <h3 className="section-heading">Summary</h3>
         <p>
-          As an experienced and creative Middle Javascript Developer,
+          As an experienced and creative Junior Javascript Developer,
           I am passionate about programming with a strong focus on frontend development.
           With a proven track record of successfully delivering commercial products and excelling in problem-solving,
           I am dedicated to creating exceptional products. My expertise lies in React, JavaScript, and various frontend technologies
